@@ -33,7 +33,6 @@ def roast_category(roast):
 
 
 def main():
-    """Load the data, train both models, and save them as pickle files."""
     df = pd.read_csv(DATA_URL)
     y = df["rating"].values
 
